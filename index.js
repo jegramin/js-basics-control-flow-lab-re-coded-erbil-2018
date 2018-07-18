@@ -10,6 +10,7 @@ function scuberGreetingForFeet(ride){
       return 'No can do.'
     }
 }
+
 function ternaryCheckCity(city){
   if(city === "NYC"){
     return 'Ok, sounds good.'
@@ -17,4 +18,8 @@ function ternaryCheckCity(city){
   else{
     return 'No go.'
   }
+}
+
+function switchOnCharmFromTip(tip){
+  if(tip === "generous")
 }
